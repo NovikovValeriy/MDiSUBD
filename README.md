@@ -57,7 +57,7 @@
 ### Auction(Аукцион)
 1. id(INT PRIMARY KEY): Уникальный идентификатор
 2. winner_id(FOREIGN KEY User(id)): Идентификатор победителя аукциона
-3. current_bid_id(FOREIGN KEY Bid(id)): Идентификатор текущей ставки
+3. current_bid(DECIMAL(17,2)): Значение текущей ставки
 4. status_id(FOREIGN KEY AuctionStatus(id) NOT NULL): Идентификатор статуса аукциона
 5. lot_id(FOREIGN KEY Lot(id) NOT NULL): Идентификатор лота
 6. start_bid(DECIMAL(17,2)): Начальная ставка
@@ -106,4 +106,5 @@
 4. rating(BIT NOT NULL): Оценка
 5. review_text(VARCHAR(MAX)): Текст отзыва
 # 4. Графическая схема
-![бд_схема](https://github.com/user-attachments/assets/43f3f2c1-52ba-40c2-a876-3d7d77234430)
+![бд2_схема](https://github.com/user-attachments/assets/f678ab75-8d2e-4462-9e57-345eb99cfbbf)
+
