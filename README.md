@@ -106,5 +106,6 @@
 4. rating(BIT NOT NULL): Оценка
 5. review_text(VARCHAR(MAX)): Текст отзыва
 # 4. Графическая схема
-![бд2_схема](https://github.com/user-attachments/assets/f678ab75-8d2e-4462-9e57-345eb99cfbbf)
+![бд22](https://github.com/user-attachments/assets/2dcfeee5-2668-4199-ac67-5c8a15cb1a1f)
+
 
