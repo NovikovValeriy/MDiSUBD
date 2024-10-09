@@ -1,0 +1,4 @@
+CREATE TABLE AuctionStatus(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+    status VARCHAR(50) NOT NULL
+);

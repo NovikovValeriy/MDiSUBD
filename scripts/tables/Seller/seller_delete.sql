@@ -1,0 +1,2 @@
+DELETE FROM seller
+WHERE id = 1

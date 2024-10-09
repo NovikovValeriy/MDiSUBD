@@ -1,0 +1,2 @@
+DELETE FROM lot
+WHERE id = 1

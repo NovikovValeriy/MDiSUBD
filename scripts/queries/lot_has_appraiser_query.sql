@@ -1,0 +1,2 @@
+SELECT * FROM Lot
+WHERE appraiser_id IS NOT NULL

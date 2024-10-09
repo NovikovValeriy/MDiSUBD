@@ -1,0 +1,2 @@
+DELETE FROM bid
+WHERE id = 26
